@@ -77,7 +77,7 @@ Binary mask of the detected border (white = detected pixels).
 
 ---
 
-# 🧩 Software Architecture
+## 🧩 Software Architecture
 
 ## High-Level System Overview
 
