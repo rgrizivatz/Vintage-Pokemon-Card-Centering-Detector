@@ -129,23 +129,6 @@ Visualization Rendering
 
 ---
 
-## Mermaid Architecture Diagram
-
-```mermaid
-flowchart TD
-
-A[yellow_frame_detector.py] --> B[Load config.yaml]
-B --> C[Load image]
-C --> D[Card silhouette detection]
-D --> E[HSV border mask + distance filtering]
-E --> F[Compute border thickness profiles]
-F --> G[Clean outliers (IQR)]
-G --> H[Quartiles + centering]
-H --> I[Visualization outputs]
-```
-
----
-
 ## 📁 Project Structure
 
 ```
