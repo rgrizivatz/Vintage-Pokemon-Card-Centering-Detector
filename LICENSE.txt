@@ -1,0 +1,19 @@
+Copyright © 2025 Richard Grizivatz
+Pokémon Card Yellow Frame Border Analyzer
+All rights reserved.
+
+This project is licensed under a custom research and evaluation license.
+Redistribution, commercial use, and modification are restricted unless permission is granted.
+
+You may:
+- Use the software for personal or research purposes
+- Modify it locally for experimentation
+- Reference results in academic or private projects
+
+You may NOT:
+- Redistribute the code
+- Sell the software or derivatives
+- Use it in commercial grading services
+- Publish modified versions online
+
+For commercial or redistribution rights, please contact the author.

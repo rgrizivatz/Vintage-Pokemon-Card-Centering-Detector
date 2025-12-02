@@ -1,0 +1,18 @@
+algorithm:
+  hsv_lower_y: [15, 40, 40]
+  hsv_upper_y: [45, 255, 255]
+  gaussian_kernel_size: 5        # Gaussian blur kernel size (odd)
+  canny_low: 50                  # Canny edge low threshold
+  canny_high: 150                # Canny edge high threshold
+  dist_kernel: 5                 # Distance transform mask size
+  max_outer_strip: 60            # Max distance from card edge for outer frame (pixels)
+  min_valid_thickness: 1.0       # Minimum valid border thickness (pixels)
+  iqr_factor: 1.5                # IQR multiplier for outlier rejection
+  hist_bins: 30                  # Number of bins in histograms
+  red_overlay_alpha: 0.3         # Alpha for red frame overlay on original image
+  segment_line_thickness: 2      # Thickness for colored border segment lines
+  segment_colors:
+    left:   [0, 100, 255]        # Blue-ish in BGR (OpenCV)
+    right:  [255, 140, 0]        # Orange in BGR
+    top:    [0, 255, 0]          # Green in BGR
+    bottom: [255, 0, 0]          # Red in BGR

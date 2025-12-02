@@ -1,0 +1,9 @@
+<svg width="480" height="180" xmlns="http://www.w3.org/2000/svg">
+  <rect width="480" height="180" fill="#1e1e1e"/>
+  <text x="50%" y="50%" font-size="40" fill="#ffdd00" font-family="Arial" text-anchor="middle" dominant-baseline="middle">
+    Pokémon Border Analyzer
+  </text>
+  <text x="50%" y="78%" font-size="18" fill="#00b7ff" font-family="Arial" text-anchor="middle">
+    Beta Version
+  </text>
+</svg>
